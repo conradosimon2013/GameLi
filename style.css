@@ -19,8 +19,8 @@ body {
 .pj1 {
 
 	background-image: url("https://www.fightersgeneration.com/characters3/ryu-ts-stance.gif");
-	width: 113px;
-	height: 111px;
+	width: 125px;
+	height: 115px;
 	background-repeat: no-repeat;
 	background-position: center;
 	position: absolute;
@@ -29,5 +29,14 @@ body {
 }
 
 .pj2 {
-
+	background-image: url("https://www.fightersgeneration.com/characters2/ken-ts-stance.gif");
+	width: 125px;
+	height: 115px;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	bottom: 80px;
+	left: 1000px;
+	transition-duration: 0s;
+	transform: scaleX(-1);
 }
